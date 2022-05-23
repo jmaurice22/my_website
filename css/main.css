@@ -3,6 +3,9 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgba(226, 236, 240, 0.699);
-  
+    background-color: #191a1ad0;
+    color:white;
+}
+#nav-links li a {
+    color: #fff;
 }

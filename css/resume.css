@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.options {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.options > button {
+    color: #fff;
+    background-color: forestgreen;
+    border: 1px solid #fff;
+}

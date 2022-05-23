@@ -1,11 +1,19 @@
 @charset "utf-8";
 
 
-#nav-links li a{
-    color: #fff;
-}
-
 img {
     width: 100%;
-    height: auto;
+    height: 70%;
+}
+
+.explore {
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+
+.explore button {
+    color: #fff;
+    background-color: rgb(22, 134, 185);
+    border: 2px solid gold;
 }

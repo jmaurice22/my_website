@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
             integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
             crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/css/main.css" />
-        <link rel="stylesheet" href="/css/index.css" />
-        <title>Julian Postell</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="stylesheet" href="./css/resume.css" />
+        <title>Resume</title>
     </head>
 
     <body>
@@ -23,13 +21,13 @@
                 <span class="navbar-brand mb-0 h1" style="color: #fff">Navbar</span>
                 <ul class="nav justify-content-end" id="nav-links">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./resume.html">Resume</a>
+                        <a class="nav-link" href="#">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -37,22 +35,18 @@
                 </ul>
             </div>
         </nav>  
-        <div class="container-fluid mt-2">
-            <div class="row">
-                <div class="col-8">
-                    <div class="intro mt-3 p-5">
-                        <h1 style="text-align:center">Julian Postell</h1>
-                   </div>
-                    <div class="explore">
-                        <button type="button" class="btn btn-lg">Contact Information</button>
-                    </div>
-                </div>
-                <div class="col-4 mt-3">
-                    <img src="/images/grad2.jpg"  alt="..." />
-                </div>
-              </div>
+        <div class="container mt-3">
+            <div class="options">
+                <h1>Resume</h1>
+                <button type="button" class="btn btn-primary btn-sm m-2">Download</button>
+            </div>
+            <object data=
+            "./JulianPostell_Resume.pdf" 
+                            width="100%" 
+                            height="900px"
+                            depth="100%"> 
+            </object>
         </div>
-    
     </body>
 
 </html>
