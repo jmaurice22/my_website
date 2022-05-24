@@ -3,9 +3,11 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #191a1ad0;
+    background:linear-gradient(160deg, rgb(70, 67, 67), rgb(97, 95, 95) 60%, rgb(221, 23, 23) 60%, rgb(70, 68, 68));
     color:white;
+    
 }
 #nav-links li a {
     color: #fff;
+    font-size: x-large;
 }
