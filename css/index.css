@@ -50,6 +50,10 @@ cite {
     padding: 1em;
 }
 
+.certifications p {
+    text-align: center;
+}
+
 .col-8 {
     border-right: 2px solid #fff;
 }
@@ -63,4 +67,9 @@ cite {
     margin-right: auto;
     margin-left: auto;
     width: 60%;
+}
+.ribbon_rack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

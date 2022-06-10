@@ -5,6 +5,7 @@ body {
     padding: 0px;
     background:linear-gradient(160deg, rgb(70, 67, 67), rgb(97, 95, 95) 60%, rgb(221, 23, 23) 60%, rgb(70, 68, 68));
     color:white;
+    overflow: visible;
     
 }
 #nav-links li a {
